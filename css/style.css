@@ -1,0 +1,153 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  width: 85%;
+  margin-inline: auto;
+}
+
+.container {
+  background-image: url(/assets/img/sfondo.png);
+  background-size: contain;
+  max-width: 400px;
+  padding: 24px;
+  margin-inline: auto;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: #38809d;
+}
+
+header div img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+header div p {
+  font-size: 1.3rem;
+  color: rgba(214, 212, 212, 0.993);
+  margin-bottom: 2rem;
+}
+
+nav ul li a {
+  color: rgba(214, 212, 212, 0.993);
+}
+
+nav {
+  padding-bottom: 2rem;
+}
+
+/* MAIN */
+
+main {
+  background-color: #ffffff;
+  margin-top: 1.3rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1 > p {
+  font-size: 1rem;
+  color: #98a9a4;
+  padding-top: 1.5rem;
+}
+
+.margin-block {
+  margin-block: 2rem;
+}
+
+p > span {
+  color: #aa2072;
+}
+
+.margin-block + ul > li {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+
+caption {
+  font-weight: 600;
+}
+
+table {
+  text-align: center;
+  border-bottom: 2px solid blue;
+  margin-bottom: 2rem;
+}
+th {
+  width: 30%;
+  background-color: #3366cc;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1 rem;
+}
+
+th > span {
+  margin-top: 30px;
+}
+
+thead > tr :last-child {
+  width: 40%;
+}
+
+th > span {
+  position: relative;
+  top: 15px;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+tbody > tr:nth-child(even) > td {
+  background-color: grey;
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightgray;
+}
+
+.fine-articolo {
+  margin-bottom: 1rem;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+form > div {
+  margin-top: 2rem;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.bg-color {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 10px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
